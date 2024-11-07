@@ -1,9 +1,9 @@
 package org.example;
 
-public class Taskdeadline {
+public class UrgentTask  extends Task{
     private  string deadline;
 
-    public Taskdeadline(string deadline) {
+    public UrgentTask(string deadline) {
         this.deadline = deadline;
     }
 
